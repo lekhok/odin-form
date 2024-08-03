@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Form Assignment</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="imageContainer">
+        <div class="logo">
+          <div class="logo__logo">
+            <h1>Logo goes Here</h1>
+          </div>
+        </div>
+        <div class="imageContainer__image">
+          <img
+            src="./chuttersnap-rLm4Wq96h_0-unsplash.jpg"
+            alt="fire burning"
+          />
+        </div>
+      </div>
+      <div class="formBody">
+        <form action="example.com/path" method="post">
+          <section>
+            <div class="formIntro">
+              <h4>
+                Unlock a world of possibilities by signing up! Enjoy exclusive
+                access to premium content, personalized recommendations just for
+                you, and the chance to connect with a vibrant community of
+                like-minded individuals. Stay ahead of the curve with the latest
+                trends and insights.
+              </h4>
+              <h4>You know what to do!</h4>
+            </div>
+          </section>
+
+          <div class="formData">
+            <h3 id="formHeading">Let's do this!</h3>
+
+            <div class="formGroup">
+              <div class="formGroup__element">
+                <label for="firstname">First Name*</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  placeholder="Thor"
+                  name="Firstname"
+                  required
+                  minlength="2"
+                />
+              </div>
+
+              <div class="formGroup__element">
+                <label for="lastname">Last Name*</label>
+                <input
+                  type="text"
+                  id="lastname"
+                  placeholder="Odinson"
+                  name="Lastname"
+                  required
+                  minlength="2"
+                />
+              </div>
+            </div>
+
+            <br />
+            <div class="formGroup">
+              <div class="formGroup__element">
+                <label for="email">Email*</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="example@domain.com"
+                  name="Email"
+                  required
+                />
+              </div>
+              <div class="formGroup__element">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="Phone" />
+              </div>
+            </div>
+            <br />
+            <div class="formGroup">
+              <div class="formGroup__element">
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="Password" required />
+              </div>
+              <div class="formGroup">
+                <div class="formGroup__element">
+                  <label for="confirmPassword">Confirm Password*</label>
+                  <input
+                    type="password"
+                    id="confirmPassword"
+                    name="ConfirmPassword"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <br />
+          </div>
+          <div class="formEnd">
+            <button class="btn_primary" type="submit">Create Account</button>
+
+            <p>Already have an account? <a href="www.google.com">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

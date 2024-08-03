@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(241, 239, 239);
+}
+
+.imageContainer {
+  height: 100vh;
+  width: auto;
+  width: 40%;
+  position: relative;
+}
+
+.imageContainer img {
+  height: 100vh;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+}
+
+.formBody {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#formHeading {
+  padding-left: 1.6rem;
+}
+
+.btn_primary {
+  color: white;
+  background-color: rgb(172, 103, 64);
+  padding: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 8px;
+  border: 0;
+}
+
+input {
+  width: 10rem;
+}
+
+label {
+  height: 1.6rem;
+}
+
+input {
+  height: 1.6rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: row;
+  color: rgb(120, 119, 119);
+}
+
+.formGroup__element {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.6rem;
+}
+
+.formIntro {
+  padding-left: 1.6rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.formData {
+  background-color: rgb(255, 255, 255);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 1px 1px 8px;
+}
+
+.formEnd {
+  padding-left: 1.6rem;
+  padding-top: 1.6rem;
+}
+
+a {
+  color: rgb(172, 103, 64);
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  z-index: 5;
+  color: aliceblue;
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.logo__logo {
+  display: flex;
+  width: 80%;
+  background: rgba(220, 220, 220, 0.2);
+  justify-content: center;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+input:invalid:focus {
+  border-color: red;
+  border-style: groove;
+}
+
+input:valid {
+  border-color: green;
+  border-style: groove;
+}
